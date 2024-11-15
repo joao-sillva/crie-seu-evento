@@ -135,3 +135,12 @@ fieldset legend {
   background-repeat: no-repeat;
   background-position: right 24px top 50%;
 }
+
+.column-3 {
+  display: flex;
+  gap: 20px;
+}
+
+.column-3 > div:nth-child(1) {
+  width: 100%;
+}
