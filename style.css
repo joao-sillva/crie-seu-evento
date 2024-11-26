@@ -247,7 +247,7 @@ input:invalid {
     margin: 0 auto;
   }
 
-  form input {
+  .input-wrapper input {
     width: 100%;
   }
 
