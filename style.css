@@ -108,3 +108,9 @@ fieldset legend {
   height: 56px;
   padding: 0 24px;
 }
+
+.input-wrapper textarea {
+  padding-top: 12px;
+  height: 168px;
+  resize: none;
+}
