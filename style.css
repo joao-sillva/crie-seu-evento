@@ -181,3 +181,39 @@ fieldset legend {
 .checkbox-wrapper input:focus+label::before {
   outline: 1px solid #121214;
 }
+
+footer {
+  background: #F0F0F4;
+  height: 136px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 64px;
+  border-top: 1px solid #D6D6D6;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 10rem;
+}
+
+footer .button {
+  font-family: 'Archivo', sans-serif;
+  background: #04D361;
+  color: #fff;
+
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+footer .button:hover {
+  background: #07c25b;
+}
+
+input:invalid {
+  border: 1px solid #FF1010;
+}
