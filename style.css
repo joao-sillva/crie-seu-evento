@@ -3,3 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body,
+input,
+select,
+textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 368px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #121214;
+}
+
+#page {
+  width: 736px;
+  margin: auto;
+}
+
+header {
+  margin-top: 86px;
+  width: 320px;
+}
+
+header h1 {
+  font-family: 'Archivo', sans-serif;
+  color: #fff;  
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 24px;
+}
+
+header p {
+  color: #42D3FF;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 42px;
+}
+
+form {
+  background: #FAFAFC;
+  border-radius: 8px 8px 0 0;
+  padding: 64px;
+}
