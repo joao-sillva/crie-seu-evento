@@ -97,7 +97,9 @@ fieldset legend {
   color: #6c6a71;
 }
 
-.input-wrapper input {
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
   background: #FAFAFC;
   color: #6c6a71;
   font-size: 16px;
@@ -113,4 +115,12 @@ fieldset legend {
   padding-top: 12px;
   height: 168px;
   resize: none;
+}
+
+.input-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_9402_52)'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_9402_52'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: right 24px top 50%;
 }
