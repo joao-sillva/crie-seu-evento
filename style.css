@@ -222,3 +222,46 @@ footer .button:hover {
 input:invalid {
   border: 1px solid #FF1010;
 }
+
+@media (width <= 46em) {
+  #page {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  header {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  header h1 {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+
+  header p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+
+  form {
+    padding: 2rem 1rem;
+    gap: 2.4rem;
+  }
+
+  fieldset legend {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .column-3 {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  footer {
+    height: auto;
+    padding: 2rem 1rem;
+    margin-bottom: 4rem;
+  }
+}
