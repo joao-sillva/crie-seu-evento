@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body,
 input,
 select,
 textarea {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
 }
 
 body {
@@ -18,7 +23,7 @@ body {
 body::before {
   content: '';
   width: 100%;
-  height: 368px;
+  height: 36.8rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -27,39 +32,39 @@ body::before {
 }
 
 #page {
-  width: 736px;
+  width: 73.6rem;
   margin: auto;
 }
 
 header {
-  margin-top: 86px;
-  width: 320px;
+  margin-top: 8.6rem;
+  width: 32rem;
 }
 
 header h1 {
   font-family: 'Archivo', sans-serif;
   color: #fff;  
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 700;
-  line-height: 42px;
-  margin-bottom: 24px;
+  line-height: 4.2rem;
+  margin-bottom: 2.4rem;
 }
 
 header p {
   color: #42D3FF;
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 42px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom: 4.2rem;
 }
 
 form {
   background: #FAFAFC;
-  border-radius: 8px 8px 0 0;
-  padding: 64px;
+  border-radius: .8rem .8rem 0 0;
+  padding: 6.4rem;
 
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 4.8rem;
 }
 
 fieldset {
@@ -69,19 +74,19 @@ fieldset {
 fieldset legend {
   font-family: 'Archivo', sans-serif;
   color: #32264D;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 3.4rem;
 
   width: 100%;
   border-bottom: 1px solid #E6E6F0;
-  padding-bottom: 16px;
+  padding-bottom: 1.6rem;
 }
 
 .fieldset-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .input-wrapper {
@@ -92,16 +97,16 @@ fieldset legend {
 .input-wrapper label,
 .checkbox-wrapper label {
   color: #4E4958;
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 8px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-bottom: .8rem;
 }
 
 .input-wrapper label span {
   color: #a9a7af;
-  font-size: 12px;
-  line-height: 20px;
-  margin-left: 12px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-left: 1.2rem;
 }
 
 .input-wrapper label span:hover {
@@ -113,18 +118,18 @@ fieldset legend {
 .input-wrapper select {
   background: #FAFAFC;
   color: #6c6a71;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
   
-  border-radius: 8px;
+  border-radius: .8rem;
   border: 1px solid #E6E6F0;
-  height: 56px;
-  padding: 0 24px;
+  height: 5.6rem;
+  padding: 0 2.4rem;
 }
 
 .input-wrapper textarea {
-  padding-top: 12px;
-  height: 168px;
+  padding-top: 1.2rem;
+  height: 16.8rem;
   resize: none;
 }
 
@@ -133,12 +138,12 @@ fieldset legend {
   -webkit-appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_9402_52)'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_9402_52'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
-  background-position: right 24px top 50%;
+  background-position: right 2.4rem top 50%;
 }
 
 .column-3 {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .column-3 > div:nth-child(1) {
@@ -152,7 +157,7 @@ fieldset legend {
 .checkbox-wrapper label {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1.6rem;
   margin: 0;
 }
 
@@ -161,17 +166,17 @@ fieldset legend {
   top: 0;
   left: 0;
   opacity: 0;
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .checkbox-wrapper label::before {
   content: '';
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
   display: block;
   border: 1px solid #E6E6F0;
-  border-radius: 8px;
+  border-radius: .8rem;
 }
 
 .checkbox-wrapper input:checked+label::before {
@@ -184,14 +189,14 @@ fieldset legend {
 
 footer {
   background: #F0F0F4;
-  height: 136px;
+  height: 13.6rem;
 
   display: flex;
   flex-direction: column;
 
-  padding: 40px 64px;
+  padding: 4rem 6.4rem;
   border-top: 1px solid #D6D6D6;
-  border-radius: 0 0 8px 8px;
+  border-radius: 0 0 .8rem .8rem;
   margin-bottom: 10rem;
 }
 
@@ -200,13 +205,13 @@ footer .button {
   background: #04D361;
   color: #fff;
 
-  height: 56px;
+  height: 5.6rem;
   border: none;
-  border-radius: 8px;
+  border-radius: .8rem;
 
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
-  line-height: 26px;
+  line-height: 2.6rem;
   cursor: pointer;
 }
 
